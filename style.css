@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Victor+Mono:wght@100&display=swap');
+
+
+*{font-family: 'Victor Mono', monospace;
+   }
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("k0.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    color: rgb(248, 91, 99);
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #e5fca8;
+
+    border: 2px solid #bbfdfa;
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(175, 221, 229);
+}
+.card-img-top{
+    height: 30vh;
+}
+p {
+    font-size: 20px;
+}
+
+.container {
+     /* background-color: rgb(198, 213, 219);  */
+    width: 80%;
+    border-radius: 10px;
+}
+
+.skill {
+    background-color: rgb(238, 247, 164);
+    color: rgb(252, 117, 117);
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 70px;
+}
+
+.communication {
+    width: 95%;
+    
+}
+
+.problem-solving {
+    width: 70%;
+}
+.c {
+    width: 70%;
+}
+.java {
+    width: 60%;
+}
+.python {
+    width: 50%;
+}
